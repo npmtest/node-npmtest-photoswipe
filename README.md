@@ -1,6 +1,6 @@
 # npmtest-photoswipe
 
-#### test coverage for  [photoswipe (v4.1.1)](http://photoswipe.com)  [![npm package](https://img.shields.io/npm/v/npmtest-photoswipe.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-photoswipe) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-photoswipe.svg)](https://travis-ci.org/npmtest/node-npmtest-photoswipe)
+#### basic test coverage for  [photoswipe (v4.1.2)](http://photoswipe.com)  [![npm package](https://img.shields.io/npm/v/npmtest-photoswipe.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-photoswipe) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-photoswipe.svg)](https://travis-ci.org/npmtest/node-npmtest-photoswipe)
 
 #### JavaScript gallery
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-photoswipe/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-photoswipe/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-photoswipe/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-photoswipe/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-photoswipe/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-photoswipe/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-photoswipe/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-photoswipe/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-photoswipe/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-photoswipe/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-photoswipe/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-photoswipe/build/coverage.html/index.html)
 
@@ -61,13 +61,13 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "41b756a2387e220c286598945503014bf622bba9",
-        "tarball": "https://registry.npmjs.org/photoswipe/-/photoswipe-4.1.1.tgz"
+        "shasum": "95c20a75cea23b70d6299641cad82e03cae7f797",
+        "tarball": "https://registry.npmjs.org/photoswipe/-/photoswipe-4.1.2.tgz"
     },
     "engines": {
         "node": ">= 0.8.0"
     },
-    "gitHead": "41ff96cb8e88ef6f884c388db9f2a6d5e9d3b77a",
+    "gitHead": "b6fdb82ed0b5b635c0943098f3046581a02ead77",
     "homepage": "http://photoswipe.com",
     "keywords": [
         "gallery",
@@ -94,7 +94,8 @@
     "scripts": {
         "test": "grunt jshint"
     },
-    "version": "4.1.1"
+    "version": "4.1.2",
+    "bin": {}
 }
 ```
 
